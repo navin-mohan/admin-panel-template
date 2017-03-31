@@ -1,0 +1,25 @@
+.dashboard{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.panel{
+    border-radius: 0;
+    border-left-color: #eeeeee;
+    height: 100%;
+}
+
+.container-fluid{
+    min-height: 50%;
+}
+
+/*.vertical-line{
+    border-left: 1px solif #eeeeee;
+    padding: 0;
+    margin: 0;  
+}*/
+
+.navbar{
+    border-radius: 0;
+    margin-bottom: 0;
+}

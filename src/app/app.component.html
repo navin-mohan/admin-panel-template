@@ -1,3 +1,22 @@
-<h1>
-  {{title}}
-</h1>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">
+        Pratheeksha
+      </a>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid">
+  <div class="row">
+    <app-sidebar></app-sidebar>
+    <div class="dashboard col-md-10 col-sm-12">
+        <div class="panel panel-default">
+            <div class="panel-body">
+              <router-outlet></router-outlet>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
