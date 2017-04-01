@@ -1,0 +1,21 @@
+.students-form  div.input-group
+{
+    width: 60%;
+    margin: 6px auto;
+}
+
+
+.students-form button{
+    margin: 6px 43%;
+}
+
+@media (max-width: 970px){
+    .students-form > div > div.input-group{
+        width: 95%;
+    }
+
+    .students-form button{
+        margin: 6px 23%;
+        width: 50%;
+    }
+}

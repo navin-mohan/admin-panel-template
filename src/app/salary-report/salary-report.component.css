@@ -1,0 +1,14 @@
+.salary-report-header > h1{
+    font-weight: 400;
+}
+
+.input-group {
+    width: 100%;
+}
+
+@media (max-width:970px){
+    .input-group{
+        margin-bottom: 30px;
+        margin-right: 20px; 
+    }
+}

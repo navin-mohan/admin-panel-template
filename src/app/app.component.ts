@@ -9,4 +9,10 @@ import { DashboardComponent } from "./dashboard/dashboard.component";
 })
 export class AppComponent {
   title = 'app works!';
+  private showMenu: Boolean = false;
+
+
+  toggleMenu(){
+    this.showMenu = !this.showMenu;
+  }
 }

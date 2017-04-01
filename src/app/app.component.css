@@ -23,3 +23,30 @@
     border-radius: 0;
     margin-bottom: 0;
 }
+
+.menu-btn{
+    margin-top: 2px;
+    margin-right: 4px;
+
+}
+
+.menu-btn:hover,
+.menu-btn:active{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    transform: none;
+}
+
+.menu-btn-wrapper{
+    display: none;
+}
+
+@media (max-width:970px){
+    .menu-btn-wrapper{
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}

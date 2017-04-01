@@ -1,32 +1,35 @@
-<div class="sidebar col-md-2">
+<div class="sidebar col-md-2" [ngClass]="{'show':showMenu}">
   <ul class="list-group">
-    <li class="list-group-item">
-      <a routerLink="/dashboard" routerLinkActive="active">
+    <!--<li class="list-group-item close-btn">
+      <span class="glyphicon glyphicon-remove"></span>
+    </li>-->
+    <li class="list-group-item" routerLinkActive="active">
+      <a routerLink="/dashboard">
         <span class="glyphicon glyphicon-dashboard"></span>  Dashboard
       </a>
     </li>
-    <li class="list-group-item">
-      <a routerLink="/staffreport" routerLinkActive="active">
+    <li class="list-group-item" routerLinkActive="active">
+      <a routerLink="/staffreport">
         <span class="glyphicon glyphicon-briefcase"></span>  Staff Report
       </a>      
     </li>
-    <li class="list-group-item">
-      <a routerLink="/salaryreport" routerLinkActive="active">
+    <li class="list-group-item" routerLinkActive="active">
+      <a routerLink="/salaryreport">
         <span class="glyphicon glyphicon-usd"></span>  Salary Report
       </a>      
     </li>
-    <li class="list-group-item">
-      <a routerLink="/students" routerLinkActive="active">
+    <li class="list-group-item" routerLinkActive="active">
+      <a routerLink="/students">
         <span class="glyphicon glyphicon-user"></span>  Students
       </a>      
     </li>
-    <li class="list-group-item">
-      <a routerLink="/timetable" routerLinkActive="active">
+    <li class="list-group-item" routerLinkActive="active">
+      <a routerLink="/timetable">
         <span class="glyphicon glyphicon-calendar"></span>  Timetable
       </a>      
     </li>
-    <li class="list-group-item">
-      <a routerLink="/create" routerLinkActive="active">
+    <li class="list-group-item" routerLinkActive="active">
+      <a routerLink="/create">
         <span class="glyphicon glyphicon-plus"></span>  Create
       </a>      
     </li>

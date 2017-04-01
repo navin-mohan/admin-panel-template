@@ -4,13 +4,17 @@
       <a class="navbar-brand" href="#">
         Pratheeksha
       </a>
+      <div class="menu-btn-wrapper">
+        <button (click)="toggleMenu()" class="menu-btn btn btn-primary outline glyphicon glyphicon-menu-hamburger"></button>              
+      </div>
     </div>
+    
   </div>
 </nav>
 
 <div class="container-fluid">
   <div class="row">
-    <app-sidebar></app-sidebar>
+    <app-sidebar [show]="showMenu"></app-sidebar>
     <div class="dashboard col-md-10 col-sm-12">
         <div class="panel panel-default">
             <div class="panel-body">
