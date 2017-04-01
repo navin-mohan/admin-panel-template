@@ -1,3 +1,7 @@
+.students-header h1{
+    font-weight: 400;
+}
+
 .students-form  div.input-group
 {
     width: 60%;
